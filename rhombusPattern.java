@@ -8,7 +8,7 @@ public class rhombusPattern {
         for (int i=0; i<=N ; i++){
             for (int sp = 0; sp<i; sp++)
                 System.out.print(" ");
-            for (int j = 0; j<=N; j++){
+            for (int j = 0; j<N; j++){
                 System.out.print("*");
             }
             System.out.println("");
